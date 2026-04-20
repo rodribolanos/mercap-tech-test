@@ -25,7 +25,7 @@ public class LocalCall extends Call {
     }
 
     private boolean isBussinesDay() {
-        // date 6 and 7 are saturday and sunday
+        // 6 y 7 son Sabado y Domingo
         return date.getDayOfWeek().getValue() <= 5;
     }
 
