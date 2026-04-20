@@ -1,5 +1,5 @@
 package org.example.model;
 
 abstract public class Call {
-    abstract public Double getImporte();
+    abstract public Double getCallCost();
 }
