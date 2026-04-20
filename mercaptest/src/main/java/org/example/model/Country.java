@@ -1,15 +1,11 @@
 package org.example.model;
 
+
 public class Country implements Callable {
-    public City city;
     public double callCost;
 
-    public Country(City city) {
-        this.city = city;
-    }
-
-    public City getCity() {
-        return city;
+    public Country(int callCost) {
+        this.callCost = callCost;
     }
 
     public double getCallCost() {
