@@ -1,11 +1,11 @@
 package org.example.model;
 
+
 public class City implements Callable {
-    public String name;
     public double callCost;
 
-    public City(String name) {
-        this.name = name;
+    public City(int callCost) {
+        this.callCost = callCost;
     }
 
     public double getCallCost() {
