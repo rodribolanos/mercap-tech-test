@@ -14,3 +14,4 @@ public class InternationalCall extends LongDistanceCall {
     CallableTarget getTarget() {
         return country;
     }
+}
