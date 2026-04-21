@@ -5,6 +5,10 @@ import java.time.LocalDateTime;
 abstract public class Call {
     private LocalDateTime date;
 
+    public Call(LocalDateTime date) {
+        this.date = date;
+    }
+
     protected LocalDateTime getDate() {
         return date;
     }

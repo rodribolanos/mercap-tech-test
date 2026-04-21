@@ -6,7 +6,7 @@ public class LocalCall extends Call {
     private int minutes;
 
     public LocalCall(LocalDateTime date, int minutes) {
-        setDate(date);
+        super(date);
         this.minutes = minutes;
     }
 
