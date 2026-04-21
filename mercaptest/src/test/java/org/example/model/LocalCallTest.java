@@ -14,7 +14,7 @@ public class LocalCallTest {
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(2.0, call.getCallCost());
+        assertEquals(2.0, call.getCost());
     }
 
     @Test
@@ -23,7 +23,7 @@ public class LocalCallTest {
         int minutes = 20;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(4.0, call.getCallCost());
+        assertEquals(4.0, call.getCost());
     }
 
     @Test
@@ -32,7 +32,7 @@ public class LocalCallTest {
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(1.0, call.getCallCost());
+        assertEquals(1.0, call.getCost());
     }
 
     @Test
@@ -41,7 +41,7 @@ public class LocalCallTest {
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(2.0, call.getCallCost());
+        assertEquals(2.0, call.getCost());
     }
 
     @Test
@@ -50,7 +50,7 @@ public class LocalCallTest {
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(1.0, call.getCallCost());
+        assertEquals(1.0, call.getCost());
     }
 
     @Test
@@ -59,7 +59,7 @@ public class LocalCallTest {
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(2.0, call.getCallCost());
+        assertEquals(2.0, call.getCost());
     }
 
     @Test
@@ -68,7 +68,7 @@ public class LocalCallTest {
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(1.0, call.getCallCost());
+        assertEquals(1.0, call.getCost());
     }
 
     @Test
@@ -77,6 +77,6 @@ public class LocalCallTest {
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(1.0, call.getCallCost());
+        assertEquals(1.0, call.getCost());
     }
 }

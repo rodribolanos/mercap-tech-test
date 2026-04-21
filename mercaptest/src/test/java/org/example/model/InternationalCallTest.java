@@ -13,7 +13,7 @@ public class InternationalCallTest {
         Country country10Cost = new Country(10);
         Call call = new InternationalCall(LocalDateTime.of(2026, 4, 20, 20, 18), country10Cost);
 
-        assertEquals(10, call.getCallCost());
+        assertEquals(10, call.getCost());
     }
 
 }

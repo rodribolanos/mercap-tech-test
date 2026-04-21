@@ -23,14 +23,14 @@ public class Bill {
     private double calculateTotalLocalCallCost() {
         return calls.stream()
                 .filter(call ->call.getCallType().equals(CallType.LOCAL))
-                .mapToDouble(Call::getCallCost)
+                .mapToDouble(Call::getCost)
                 .sum();
     }
 
     private double calculateTotalLongDistanceCallCost() {
         return calls.stream()
                 .filter(call -> call.getCallType().equals(CallType.LONG_DISTANCE) )
-                .mapToDouble(Call::getCallCost)
+                .mapToDouble(Call::getCost)
                 .sum();
     }
 

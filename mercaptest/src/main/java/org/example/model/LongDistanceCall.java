@@ -2,7 +2,7 @@ package org.example.model;
 
 abstract public class LongDistanceCall extends Call {
     @Override
-    public Double getCallCost() {
+    public Double getCost() {
         return this.getTarget().getCallCost();
     }
 

@@ -13,6 +13,6 @@ abstract public class Call {
         this.date = date;
     }
 
-    abstract public Double getCallCost();
+    abstract public Double getCost();
     abstract public CallType getCallType();
 }
