@@ -15,6 +15,11 @@ public class LocalCall extends Call {
         return this.minutes * this.getCostPerMinute();
     }
 
+    @Override
+    public CallType getCallType() {
+        return CallType.LOCAL;
+    }
+
     private double getCostPerMinute() {
         if (!isBussinesDay()) {
             return 0.20;

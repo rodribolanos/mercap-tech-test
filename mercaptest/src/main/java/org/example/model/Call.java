@@ -14,4 +14,5 @@ abstract public class Call {
     }
 
     abstract public Double getCallCost();
+    abstract public CallType getCallType();
 }

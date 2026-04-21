@@ -6,5 +6,10 @@ abstract public class LongDistanceCall extends Call {
         return this.getTarget().getCallCost();
     }
 
+    @Override
+    public CallType getCallType() {
+        return CallType.LONG_DISTANCE;
+    }
+
     abstract Callable getTarget();
 }
