@@ -17,5 +17,5 @@ abstract public class LongDistanceCall extends Call {
         return CallType.LONG_DISTANCE;
     }
 
-    abstract Callable getTarget();
+    abstract CallableTarget getTarget();
 }

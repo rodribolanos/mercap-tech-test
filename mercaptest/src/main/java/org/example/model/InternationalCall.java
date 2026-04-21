@@ -11,7 +11,6 @@ public class InternationalCall extends LongDistanceCall {
     }
 
     @Override
-    Callable getTarget() {
+    CallableTarget getTarget() {
         return country;
     }
-}

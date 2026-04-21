@@ -11,7 +11,7 @@ public class NationalCall extends LongDistanceCall {
     }
 
     @Override
-    Callable getTarget() {
+    CallableTarget getTarget() {
         return this.city;
     }
 }

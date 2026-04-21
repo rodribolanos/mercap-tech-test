@@ -1,5 +1,5 @@
 package org.example.model;
 
-public interface Callable {
+public interface CallableTarget {
     double getCallCost();
 }

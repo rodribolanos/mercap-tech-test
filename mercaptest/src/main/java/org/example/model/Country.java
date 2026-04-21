@@ -1,7 +1,7 @@
 package org.example.model;
 
 
-public class Country implements Callable {
+public class Country implements CallableTarget {
     public double callCost;
 
     public Country(int callCost) {
