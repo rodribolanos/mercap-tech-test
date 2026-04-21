@@ -9,21 +9,21 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class LocalCallTest {
 
     @Test
-    void callOnSaturday_shouldDivideCostBy5() {
+    void callOnSaturday_shouldDivideCostBy10() {
         LocalDateTime date = LocalDateTime.of(2024, 6, 8, 10, 0);
         int minutes = 10;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(2.0, call.getCost());
+        assertEquals(1.0, call.getCost());
     }
 
     @Test
-    void callOnSunday_shouldDivideCostBy5() {
+    void callOnSunday_shouldDivideCostBy10() {
         LocalDateTime date = LocalDateTime.of(2024, 6, 8, 10, 0);
         int minutes = 20;
         LocalCall call = new LocalCall(date, minutes);
 
-        assertEquals(4.0, call.getCost());
+        assertEquals(2.0, call.getCost());
     }
 
     @Test

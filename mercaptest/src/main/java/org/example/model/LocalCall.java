@@ -21,10 +21,10 @@ public class LocalCall extends Call {
     }
 
     private double getCostPerMinute() {
-        if (!isBussinesDay()) {
-            return 0.20;
-        } else {
+        if (isBussinesDay()) {
             return getCostByTime();
+        } else {
+            return 0.10;
         }
     }
 
